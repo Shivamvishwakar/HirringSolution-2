@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hirring Solution</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Hirring</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/Jobs.html">Jobs</a></li>
+                    <li><a href="/Candidates.html">Candidates</a></li>
+                    <li><a href="/About.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+             
+                <input id="user-search" class="srch" type="search"  placeholder="Companies Name">
+                 <button id="search" class="btn btn-danger" onclick="getData()" type="button">Search</button></a>
+                
+            </div>
+
+        </div> 
+        <div class="content">
+     
+         <header>
+          <h1>Contact Us</h1>
+      </header>
+  
+      <div class="container">
+          <form id="contact-form">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+  
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+  
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+  
+              <button type="submit">Send</button>
+          </form>
+      </div>
+
+                
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="scritp.js"></script>
+</body>
+</html>
